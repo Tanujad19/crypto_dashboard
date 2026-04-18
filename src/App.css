@@ -1,0 +1,94 @@
+body {
+  background-color: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+
+input {
+  width: 60%;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #444;
+  color: white;
+  margin-right: 10px;
+}
+
+.buttons button {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #222;
+  color: white;
+  border: 1px solid #555;
+  cursor: pointer;
+}
+
+
+.table-container {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  border-bottom: 1px solid #333;
+}
+
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+}
+
+.left img {
+  width: 40px;
+  height: 40px;
+}
+
+.coin-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.symbol {
+  color: gray;
+  font-size: 12px;
+}
+
+
+.price,
+.volume,
+.marketcap,
+.change {
+  width: 150px;
+  text-align: right;
+}
+
+
+.green {
+  color: #00ff9f;
+}
+
+.red {
+  color: #ff4d4d;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
